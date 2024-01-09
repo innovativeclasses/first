@@ -1,5 +1,5 @@
 
-import gspread
+
 
 import numpy as np	# np mean, np random
 import pandas as pd	 # read csv, df manipulation
