@@ -13,8 +13,8 @@ from streamlit_gsheets import GSheetsConnection
 st.set_page_config(
 	page_title="Real-Time Data Science Dashboard",
 	page_icon="chart_with_upwards_trend",
-	layout="wide",
-	background_color="#00008B"
+	layout="centered",
+	
 )
 #data source
 url = "https://docs.google.com/spreadsheets/d/1QDqugik8wKtOSYFmxchjxkdW81zAMqtIOeHm49Uq7g0/edit?usp=sharing"
