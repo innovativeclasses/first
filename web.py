@@ -50,7 +50,9 @@ st.markdown('<h4 style="font-size: 16px; font-weight: bold;">OTS Progress</h4>',
 
 df=conn.read(spreadsheet=url,usecols=[0,2,3])
 	#st.dataframe(df,hide_index=True)
-	
+filtered=df[df["Zone/Circle/Division/Sub station"].isin(['MVVNL'])]
+st.dataframe(filtered,hide_index=True)	
+		
 	
 	
 	
@@ -59,29 +61,26 @@ df=conn.read(spreadsheet=url,usecols=[0,2,3])
 if submit:
 	print (df.head(10))
 	if not option1:
-		filtered=df[df[0].isin(['MVVNL'])]
-	
-		values_str = '\n'.join(filtered[1])
-		st.write(values_str)
+		
 			
 	if option and option == option:
 		print ('dd')
 		filtered=df[df["Zone/Circle/Division/Sub station"]==option]
 		print(filtered.head(10))
 		#values_str = '\n'.join(filtered["col1"])
-		st.dataframe(filtered,hide_index=True,use_container_width=True)
+		st.dataframe(filtered,hide_index=True)
 			
 	elif option2 and option2 == option2:
 		print ('dfdfdfd')
 		filtered=df[df["Zone/Circle/Division/Sub station"]==option2]
 		#values_str = '\n'.join(filtered["col1"])
 		#st.write(values_str)			
-		st.dataframe(filtered,hide_index=True,use_container_width=True)	
+		st.dataframe(filtered,hide_index=True)	
 	elif option1 and option1 == option1:
 		print ('dffdsdsfdfdfd')
 		filtered=df[df["Zone/Circle/Division/Sub station"]==option1]
 		#values_str = '\n'.join(filtered["col1"])
 		#st.write(values_str)
-		st.dataframe(filtered,hide_index=True,use_container_width=True)
+		st.dataframe(filtered,hide_index=True)
 
 
