@@ -59,8 +59,7 @@ st.dataframe(filtered,hide_index=True)
 	#filter setting
 	
 if submit:
-	print (df.head(10))
-	if not option1:
+	
 		
 			
 	if option and option == option:
