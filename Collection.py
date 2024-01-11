@@ -21,7 +21,7 @@ st.set_page_config(
 
 st.title("MVVNL Dashboard Collection")
 
-
+filter_value = st.session_state.filter_value
 
 
 #sidebar
