@@ -25,7 +25,7 @@ st.title("Live Data MVVNL Dashboard")
 
 
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
-df=pd.read_csv('menu.csv',dtype=str)
+df=pd.read_csv('home/menu.csv',dtype=str)
 
 #sidebar
 st.sidebar.title('MVVNL DATA')
