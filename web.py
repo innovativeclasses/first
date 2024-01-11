@@ -40,7 +40,8 @@ with st.sidebar:
 with st.sidebar:
 	st.title("Click to View Data")
 	st.markdown("[Collection](Button)")
-	st.markdown("(Exception)")
+	st.markdown("[Exception](Button)")
+	st.markdown("[Billing](Button)")
 st.markdown('<h3 class="bold-heading">Zone/Circle/Division Dashboard</h3>', unsafe_allow_html=True)
 	
 	
