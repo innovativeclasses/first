@@ -1,7 +1,7 @@
 
 
 
-import numpy as np	# np mean, np random
+	# np mean, np random
 import pandas as pd	 # read csv, df manipulation
 
 import streamlit as st	# 🎈 data web app development
