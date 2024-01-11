@@ -38,8 +38,8 @@ with st.sidebar:
 #col1,col2=st.columns((2))
 #with col1:
 with st.sidebar:
-	
-	st.markdown("(Collection)")
+	st.title("Click to View Data")
+	st.markdown("[Collection](Button)")
 	st.markdown("(Exception)")
 st.markdown('<h3 class="bold-heading">Zone/Circle/Division Dashboard</h3>', unsafe_allow_html=True)
 	
