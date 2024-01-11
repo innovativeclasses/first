@@ -73,13 +73,13 @@ if submit:
 		#print(filtered.head(10))
 		#values_str = '\n'.join(filtered["col1"])
 		#st.dataframe(filtered,hide_index=True)
-		 st.session_state.filter_value = filtered
+		st.session_state.filter_value = filtered
 	elif option2 and option2 == option2:
 		print ('dfdfdfd')
 		filtered=df[df["Zone/Circle/Division/Sub station"]==option2]
 		#values_str = '\n'.join(filtered["col1"])
 		#st.write(values_str)			
-		 st.session_state.filter_value = filtered
+		st.session_state.filter_value = filtered
 	#st.dataframe(filtered,hide_index=True)	
 	elif option1 and option1 == option1:
 		print ('dffdsdsfdfdfd')
@@ -87,5 +87,5 @@ if submit:
 		#values_str = '\n'.join(filtered["col1"])
 		#st.write(values_str)
 		#st.dataframe(filtered,hide_index=True)
-		 st.session_state.filter_value = filtered
+		st.session_state.filter_value = filtered
 
